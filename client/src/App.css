@@ -1,0 +1,81 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  width: 75%;
+  margin: 0 auto;
+  /* background: white; */
+  /* color: black; */
+  border-radius: 10px;
+  padding: 20px;
+}
+form {
+  border: 2px solid teal;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.text-input {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+tr{
+  box-shadow: 1px 2px 6px rgba(194, 188, 188, 0.6);
+
+}
+
+th,
+td {
+  /* border-top: 1px solid teal; */
+  border-bottom: 2px solid teal;
+  /* box-shadow:  0px 1px #aa2424; */
+  /* box-shadow: 1px 5px 10px rgba(194, 188, 188, 0.6); */
+  /* text-shadow: 2px 2px red; */
+  /* box-shadow: 1px 1px;    */
+  /* border: 2px solid rgb(167, 159, 159); */
+  text-align: center;
+}
+th{
+color: rgb(248, 10, 70);
+}
+
+button {
+  background-color: teal;
+  color: white;
+  width: 70px;
+  cursor: pointer;
+  margin: 2px 1px;
+}
+
+.delete {
+  background-color: rgb(184, 43, 130);
+}
+input[type="text"] {
+  border-radius: 8px;
+  padding:  5px; 
+  border: 2px solid black;
+
+}
+
+input[type="submit"] {
+    width: 70px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: .5rem 0; 
+    font-size: 1em;
+    font-weight: 500;
+}
